@@ -20,7 +20,7 @@ $(document).ready(function(){
     function boops(beeps, userInput){
       for (i = 0; i <= userInput; i++){
         if (beeps[i].includes("3")){
-          beeps[i] = "Sorry " + userName +". I can't do that";
+          beeps[i] = "Sorry " + userName +", I can't do that";
         } else if (beeps[i].includes("2")){
           beeps[i] = "Boop";
         } else if (beeps[i].includes("1")){

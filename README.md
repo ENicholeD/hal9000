@@ -1,4 +1,4 @@
-# hal
+# hal9000
 
 This is an application that I made for my solo project at Epicodus.
 
@@ -13,7 +13,7 @@ This program was made to showcase my learning for the third week at Epicodus. It
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| user inputs a number and the program replaces certain numbers | 5 | ["0", "Beep", "Boop", "Sorry (your name). I can't do that", "4", "5"] |
+| user inputs a number and the program replaces certain numbers | 5 | ["ERROR!", "Beep", "Boop", "Sorry (your name), I can't do that", "4", "5"] |
 | a refresh button appears that you can press to try again | "Start Over" button is pushed | refresh's page |
 
 ## Setup Instructions
