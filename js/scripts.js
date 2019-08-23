@@ -1,4 +1,6 @@
 $(document).ready(function(){
+$("iframe").hide();
+
   $(".form").submit(function(event){
     event.preventDefault();
 
@@ -15,6 +17,8 @@ $(document).ready(function(){
     $("#robot").fadeIn();
     $("#try").fadeIn()
     $(".form").hide();
+    $("iframe").show();
+    $("h2").show();
     $("#out").text(output);
 
     function boops(beeps, userInput){

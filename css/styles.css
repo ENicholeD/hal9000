@@ -33,7 +33,8 @@ label {
 }
 .btn {
   color: lavender;
+  background-color: rgba(245, 158, 242, 0.41);
 }
-#try {
+#try, h2 {
   display: none;
 }
