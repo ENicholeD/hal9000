@@ -10,7 +10,7 @@ $(document).ready(function(){
     }
 
     output = boops(beeps, userInput);
-    $(".col-md-5").fadeIn();
+    $(".hal").fadeIn();
     $(".form").hide();
     $("#out").text(output);
 
