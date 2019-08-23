@@ -25,6 +25,8 @@ $(document).ready(function(){
           beeps[i] = "Boop";
         } else if (beeps[i].includes("1")){
           beeps[i] = "Beep";
+        } else if (beeps[i].includes("0")){
+          beeps[i] = "ERROR!";
         }
       }
       return beeps;
