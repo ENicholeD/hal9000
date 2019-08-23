@@ -3,14 +3,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
-}
-.hal {
-  display: none;
-  background-color: rgba(8, 4, 21, 0.5);
-  border-radius: 1%;
-  padding: 50px;
-  color: salmon;
   font-family: cursive;
+  color: salmon;
 }
 .jumbotron {
   color: lavender;
@@ -20,4 +14,26 @@ body {
 h1 {
   font-family: monospace;
   font-size: 100px;
+}
+.hal {
+  display: none;
+  background-color: rgba(8, 4, 21, 0.5);
+  border-radius: 1%;
+  padding: 50px;
+}
+#ship {
+  width: 900px;
+}
+#robot {
+  display: none;
+  width: 50px;
+}
+label {
+  color: black;
+}
+.btn {
+  color: lavender;
+}
+#try {
+  display: none;
 }
