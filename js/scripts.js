@@ -1,3 +1,20 @@
+// Business logic
+function boops(beeps, userInput){
+  for (i = 0; i <= userInput; i++){
+    if (beeps[i].includes("3")){
+      beeps[i] = "Sorry " + userName +", I can't do that";
+    } else if (beeps[i].includes("2")){
+      beeps[i] = "Boop";
+    } else if (beeps[i].includes("1")){
+      beeps[i] = "Beep";
+    } else if (beeps[i].includes("0")){
+      beeps[i] = "ERROR!";
+    }
+  }
+  return beeps;
+}
+
+// User Interface logic
 $(document).ready(function(){
 $("iframe").hide();
 
@@ -21,19 +38,5 @@ $("iframe").hide();
     $("h2").show();
     $("#out").text(output);
 
-    function boops(beeps, userInput){
-      for (i = 0; i <= userInput; i++){
-        if (beeps[i].includes("3")){
-          beeps[i] = "Sorry " + userName +", I can't do that";
-        } else if (beeps[i].includes("2")){
-          beeps[i] = "Boop";
-        } else if (beeps[i].includes("1")){
-          beeps[i] = "Beep";
-        } else if (beeps[i].includes("0")){
-          beeps[i] = "ERROR!";
-        }
-      }
-      return beeps;
-    }
   });
 });
