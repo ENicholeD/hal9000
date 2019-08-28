@@ -13,8 +13,12 @@ This program was made to showcase my learning for the third week at Epicodus. It
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| user inputs a number and the program replaces certain numbers | 5 | ["ERROR!", "Beep", "Boop", "Sorry (your name), I can't do that", "4", "5"] |
-| a refresh button appears that you can press to try again | "Start Over" button is pushed | refresh's page |
+| the program receives a number and turns it into an array of strings | 5 | ["0", "1", "2", "3", "4", "5"] |
+| the program targets any element that includes a 3 and replaces the element with a different string | "3" | "sorry, (user's name). I can't do that" |
+| the program targets any element that includes a 2 and replaces the element with a different string | "2" | "Boop" |
+|the program targets any element that includes a 1 and replaces that element with a different string | "1" | "Beep" |
+| the element targets any element that includes a 0 and replaces that element with a different string | "0" | "Error!" |
+| when clicked, the "Try again" button refreshes the page | button clicked | page is refreshed |
 
 ## Setup Instructions
 
