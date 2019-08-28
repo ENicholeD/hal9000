@@ -1,4 +1,6 @@
 // Business logic
+var userName = $("#name").val();
+
 function boops(beeps, userInput){
   for (i = 0; i <= userInput; i++){
     if (beeps[i].includes("3")){
@@ -13,7 +15,6 @@ function boops(beeps, userInput){
   }
   return beeps;
 }
-
 // User Interface logic
 $(document).ready(function(){
 $("iframe").hide();
@@ -22,7 +23,6 @@ $("iframe").hide();
     event.preventDefault();
 
     var userInput = $("#numberInput").val();
-    var userName = $("#name").val();
     var beeps = [];
 
     for (i = 0; i <= userInput; i++){
