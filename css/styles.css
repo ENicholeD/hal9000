@@ -28,9 +28,7 @@ h1 {
   display: none;
   width: 50px;
 }
-label {
-  color: black;
-}
+
 .btn {
   color: lavender;
   background-color: rgba(245, 158, 242, 0.41);
