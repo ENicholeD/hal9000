@@ -11,6 +11,9 @@ body {
   background-color: rgba(8, 4, 21, 0.5);
   border-radius: 30%
 }
+label {
+  color: salmon;
+}
 h1 {
   font-family: monospace;
   font-size: 100px;
